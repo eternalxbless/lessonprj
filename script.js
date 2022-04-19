@@ -13,8 +13,8 @@ console.log(obj["name"]);
 
 let arr = ['plum.png', 'orange.jpeg', 'apple.bmp', 6, {}, []];
 
-console.log(arr[1])
-3
+console.log(arr[1]);
+
 let zopa = 10,
     pizda = 10;
 
