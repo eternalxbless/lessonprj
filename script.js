@@ -21,3 +21,40 @@ let zopa = 9,
 zopa++;
 pizda--;
 console.log(zopa,pizda);
+
+
+if (4 == 9){
+    console.log('ok')
+}
+else {
+    console.log('loh')
+};
+
+let num = 50;
+if (num < 49) {
+    console.log ('error')
+} else if (num > 100) {
+    console.log ('mnogo')
+
+} else {
+    console.log ('ok')
+};
+
+(num === 50) ? console.log ('ok') : console.log ('error');
+
+const pum = 50;
+switch (pum) {
+    case 49: 
+        console.log('neverno');
+        break;
+    case 100:
+        console.log('neverno');
+        break;
+    case 52:
+        console.log('pravda');
+        break;
+    default:
+        console.log('ti loh');
+        break;
+        
+}
