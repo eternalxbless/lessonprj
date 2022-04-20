@@ -58,3 +58,24 @@ switch (pum) {
         break;
         
 }
+
+let lum = 50;
+// while (lum <= 55) {
+//     console.log(lum);
+//     lum++;
+// } 
+
+// do {
+//     console.log(lum);
+//     lum++;
+// }
+// while (lum < 55);
+
+
+for (let i = 1; i < 8; i++){
+    if (i === 6) {
+        continue;
+    }
+    console.log(i);
+  
+}
