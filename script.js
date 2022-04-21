@@ -79,3 +79,34 @@ for (let i = 1; i < 8; i++){
     console.log(i);
   
 }
+let kum = 10;
+function showFirstMsg(text) {
+    console.log(text);
+    let kum = 20;
+    console.log(kum);
+}
+
+showFirstMsg();
+console.log(kum);
+
+function calc(a,b) {
+    return (a+b);
+}
+
+console.log(calc(4, 3));
+
+function ret() {
+    let num = 50;
+    return num;
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+const logger = function() {
+    console.log("Hello");
+};
+
+logger();
+
+const calca = (a, b) => {return a + b};
