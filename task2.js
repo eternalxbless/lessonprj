@@ -1,6 +1,6 @@
 "use strict";
 
-let numberOfFilms;
+/* let numberOfFilms;
 
 function start() {
   numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
@@ -68,4 +68,17 @@ function writeYourGenres() {
   }
 }
 
-writeYourGenres();
+writeYourGenres(); */
+
+function setAlarm(employed, vacation){
+  employed = prompt(" ", "");
+  vacation = prompt(" ", "");
+  if (employed == 'true' && vacation == 'false') {
+    console.log("true");
+  }
+  else {
+    console.log("false");
+  }
+}
+
+setAlarm();
